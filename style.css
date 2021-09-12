@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap");
+
 * {
   font-family: "Nunito", sans-serif;
   box-sizing: border-box;
@@ -79,6 +79,7 @@ header {
     transition: all 0.3s linear;
   }
  
+ 
   
 
 #arrow-down{
@@ -93,4 +94,40 @@ header {
 
 }
 
+  
+
+.home-text h1{
+  font-size: 120px;
+  color: #fff;
+  padding-left: 100px;
+  padding-top: 80px;
+  opacity: 0.6;
+  line-height: -2.2rem;
+}
+
+  .donate {
+  border: none;
+  outline: none;
+  transition: 0.5s ease;
+  background: #ff7200;
+  padding: 25px 60px;
+  font-weight: bolder;
+  color: #000000;
+  border-radius: 50px;
+  margin-right: 60px;
+  text-transform: uppercase;
+  position: relative;
+  top: 40px;
+  left: 120px;
+  font-size: 20px;
+
+}
+
+  .donate:hover {
+  color: #ff7200;
+  background: black;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s linear;
+}
 
