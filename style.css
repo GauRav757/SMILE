@@ -11,6 +11,10 @@
   transition: all 0.3s linear;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 header {
     min-height: 100vh;
     width: 100%;
@@ -149,9 +153,6 @@ body{
   min-height: 100vh;
 }
 
-section{
-  padding: 50px 100px;
-}
 
 .programs{
   position: relative;
@@ -160,7 +161,8 @@ section{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background:  rgb(165, 165, 165)
+  background: black;
+  padding: 50px 100px;
 }
 
 .image{
@@ -189,9 +191,11 @@ section{
 
 .info p{
   font-size: 1.17em;
-  color: black;
+  color: aqua;
   text-align: justify;
   margin-top: 15px;
+  position: relative;
+  top: -1px;
 }
 
 .give {
@@ -241,6 +245,361 @@ section{
   .view:hover {
   color: red;
   background: black;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s linear;
+}
+
+
+/* about us section */
+
+.section {
+  width: 100%;
+  min-height: 100vh;
+  background-color: black;
+  height: 100%;
+  padding: 40px;
+  border-top: 4px solid #ff7200;
+  
+}
+.container {
+  width: 100%;
+  display: block;
+  margin: auto;
+  padding-top: 100px;
+  height: 100%;
+}
+.content-section{
+position: relative;
+top: 50px;
+padding: 0 40px;
+color: white;
+}
+.image-section {
+  float: right;
+  width: 40%;
+  top: -10px;
+}
+
+.image-section img {
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: -190px;
+}
+.content-section .title {
+  text-transform: uppercase;
+  font-size: 28px;
+}
+.content-section .content h3 {
+  margin-top: 20px;
+  color: #5d5d5d;
+  font-size: 21px;
+  align-items: center;
+}
+.content-section .content p {
+  margin-top: 10px;
+  font-size: 18px;
+  line-height: 1.5;
+  align-items: center;
+}
+.title h1 {
+  position: relative;
+  top: 50px;
+  color: #ff7200;
+}
+.content p {
+  position: relative;
+  top: 80px;
+  color: #fff;
+  text-align: justify;
+  
+}
+.button-more {
+  position: relative;
+  top: 90px;
+  left: 50px;
+}
+.content-section .content .button-more {
+  margin-top: 30px;
+}
+.content-section .content .button-more a {
+  border: none;
+  outline: none;
+  transition: 0.5s ease;
+  background: rgb(1, 185, 185);
+  padding: 15px 50px;
+  color: #000000;
+  border-radius: 50px;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+  bottom: -25px;
+  left: -300px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.content-section .content .button-more a:hover {
+  color: rgb(255, 255, 255);
+  background: #ff7200;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s linear;
+}
+
+/* end of about us section */
+
+.programs-1{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+  padding: 50px 100px;
+  border-top: 4px solid #ff7200;
+  border-bottom: 4px solid #ff7200;
+}
+
+.image-1{
+  position: relative;
+  width: 50%;
+  min-height: 600px;
+}
+
+.programs-1 .image-1 img{
+  width: 110%;  
+  height: 300%; 
+  position: relative;
+}
+
+
+.info-1{
+  position: relative;
+  width: 42%;
+}
+
+.info-1 h2{
+  font-size: 2em;
+  font-weight: 900;
+  color: #ff7200;
+}
+
+.info-1 p{
+  font-size: 1.17em;
+  color: aqua;
+  text-align: justify;
+  margin-top: 15px;
+  position: relative;
+  top: -1px;
+}
+
+.give-1 {
+  border: none;
+  outline: none;
+  transition: 0.5s ease;
+  background: #ff7200;
+  padding: 20px 50px;
+  font-weight: bolder;
+  color: #000000;
+  border-radius: 50px;
+  margin-right: 60px;
+  text-transform: uppercase;
+  position: relative;
+  top: 50px;
+  left: 30px;
+  font-size: 20px;
+
+}
+
+  .give-1:hover {
+  color: red;
+  background: black;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s linear;
+}
+
+/* My Services CSS */
+  .helps{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    height: 100%;
+    width: 100%;
+    background: white;
+    background-image: url(img/smiley.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.title-1 {
+  text-align: center;
+  color: white;
+}
+
+.title-1 h1{
+  font-size: 20px;
+}
+
+.title-1 h1 span{
+  font-size: 40px;
+}
+.helps .boxes-1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+  bottom: -280px;
+}
+.helps .boxes-1 .box-1{
+  margin: 20px 0;
+  width: calc(100% / 3 - 20px);
+  text-align: center;
+  border-radius: 12px;
+  padding: 30px 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+  cursor: default;
+  transition: all 0.4s ease;
+  background:aqua;
+
+}
+.helps .boxes-1 .box-1:hover{
+  background:#ff7200;
+  color: white;
+}
+.helps .boxes-1 .box-1 .icon-1{
+  height: 50px;
+  width: 50px;
+  background: black;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  font-size: 18px;
+  color: #fff;
+  margin: 0 auto 10px auto;
+  transition: all 0.4s ease;
+}
+.boxes-1 .box-1:hover .icon-1{
+  background-color: #fff;
+  color: #ff7200;
+}
+.helps .boxes-1 .box-1:hover .topic,
+.helps .boxes-1 .box-1:hover p{
+  color: #0E2431;
+  transition: all 0.4s ease;
+}
+.helps .boxes-1 .box-1:hover .topic,
+.helps .boxes-1 .box-1:hover p{
+  color:white;
+}
+
+/* Start Footer */
+.footer{
+  position: relative;
+  bottom: -280px;
+}
+.footer .container {
+  max-width: 1170px;
+  margin: auto;
+}
+.footer .container .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer .container .row .footer-col ul {
+  list-style: none;
+}
+.footer {
+  background-color: #000000;
+  padding: 70px 10px;
+}
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #ffffff;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 8px;
+}
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 10px 10px 10px 10px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover {
+  color: #24262b;
+  background-color: #ffffff;
+}
+.end-footer {
+  text-align: center;
+  background: black;
+  color: white;
+  font-size: 15px;
+  position: relative;
+  bottom: -70px;
+}
+
+.end-footer a{
+  color: #ff7200;
+}
+
+.last-btn{
+  color:white;
+  background:#ff7200;
+  cursor: pointer;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: all 0.3s linear;
+  position: relative;
+  left: -20px;
+}
+
+.last-btn:hover{
+  color: white;
+  background: red;
   cursor: pointer;
   border: none;
   transition: all 0.3s linear;
